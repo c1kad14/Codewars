@@ -6,39 +6,27 @@ namespace Valid.Parentheses
 	{
 		public static bool ValidParentheses(string input)
 		{
-			var inputLength = input.Length;
-			var invalid = false;
-
-			if (input.Count(i => i == '(' || i == ')') % 2 != 0 || inputLength < 0 || inputLength > 100 ||
-			    input.StartsWith(')') || input.EndsWith('(') ||
-			    input.Count(i => i == '(') != input.Count(i => i == ')'))
-			{
-				return false;
-			}
-
-			var opened = 0;
-			var closed = 0;
+			var parentheses = 0;
 
 			foreach (var el in input.ToCharArray())
 			{
 				if (el == '(')
 				{
-					opened++;
+					parentheses++;
 				}
 
 				if (el == ')')
 				{
-					closed++;
-				}
+					parentheses--;
 
-				if (closed > opened)
-				{
-					invalid = true;
-					break;
+					if (parentheses < 0)
+					{
+						break;
+					}
 				}
 			}
 
-			return !invalid;
+			return parentheses == 0;
 		}
 	}
 }
