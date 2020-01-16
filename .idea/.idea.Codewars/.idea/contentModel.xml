@@ -24,6 +24,20 @@
         <e p="Test.cs" t="Include" />
       </e>
       <e p="Codewars.sln" t="IncludeFlat" />
+      <e p="MovingZerosToTheEnd" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MovingZerosToTheEnd.cs" t="Include" />
+        <e p="MovingZerosToTheEnd.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="MovingZerosToTheEnd.AssemblyInfo.cs" t="Include" />
+              <e p="MovingZerosToTheEnd.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Test.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Valid.Parentheses" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

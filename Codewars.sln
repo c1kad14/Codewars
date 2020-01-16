@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array.diff", "Array.diff\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid.Parentheses", "Valid.Parentheses\Valid.Parentheses.csproj", "{FE88666C-E1F8-42CD-90AA-53C608988AA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingZerosToTheEnd", "MovingZerosToTheEnd\MovingZerosToTheEnd.csproj", "{988795F6-7504-47E9-83F3-B4B621662DEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FE88666C-E1F8-42CD-90AA-53C608988AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE88666C-E1F8-42CD-90AA-53C608988AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE88666C-E1F8-42CD-90AA-53C608988AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988795F6-7504-47E9-83F3-B4B621662DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988795F6-7504-47E9-83F3-B4B621662DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988795F6-7504-47E9-83F3-B4B621662DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988795F6-7504-47E9-83F3-B4B621662DEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
