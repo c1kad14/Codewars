@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MovingZerosToTheEnd
+﻿namespace MovingZerosToTheEnd
 {
 	class MovingZerosToTheEnd
 	{

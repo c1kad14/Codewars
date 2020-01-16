@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace Valid.Parentheses
+﻿namespace Valid.Parentheses
 {
 	public class Parentheses
 	{
@@ -8,7 +6,7 @@ namespace Valid.Parentheses
 		{
 			var parentheses = 0;
 
-			foreach (var el in input.ToCharArray())
+			foreach (var el in input)
 			{
 				if (el == '(')
 				{
