@@ -19,7 +19,7 @@ def spin_words(words):
             result.append(word[::-1])
         else:
             result.append(word)
-    
+    print(' '.join(result))
     return ' '.join(result)
 
 
